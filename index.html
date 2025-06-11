@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lennscape Gallery</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Lennscape</h1>
+    <button id="x-button" onclick="window.open('https://x.com/ohmylenny', '_blank')">Follow on X</button>
+  </header>
+
+  <main class="gallery">
+    <!-- Repeat this block for each image -->
+    <div class="art-card">
+      <img src="images/art1.jpg" alt="Art 1" onclick="openLightbox(this)" />
+      <p class="title">“Celestia” – Luna Morita</p>
+    </div>
+    <!-- More art-card divs... -->
+  </main>
+
+  <!-- Lightbox Preview -->
+  <div id="lightbox" onclick="closeLightbox()">
+    <img id="lightbox-img" src="" />
+  </div>
+
+  <!-- Future: Wallet connect will be here -->
+  <script src="scripts/lightbox.js"></script>
+</body>
+</html>

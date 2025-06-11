@@ -119,30 +119,22 @@ h1 {
 
 .nav-menu {
   display: flex;
-  gap: 20px;
+  gap: 32px; /* space between menu items */
   justify-content: center;
-  margin: 15px 0;
+  padding: 20px 0;
+  font-family: inherit;
 }
 
 .nav-menu a {
-  color: var(--main-purple, #836EF9);
+  color: #FFFFFF;              /* white text */
   text-decoration: none;
-  font-weight: bold;
-  padding: 5px 10px;
+  font-weight: 600;
+  letter-spacing: 1.5px;       /* spacing between letters */
+  font-size: 1.1rem;
   transition: color 0.3s ease;
 }
 
 .nav-menu a:hover {
-  color: #a693ff;
+  color: #a693ff;              /* subtle purple hover effect */
 }
 
-.content ol {
-  padding-left: 1.5rem;
-  line-height: 1.8;
-  font-size: 1.1rem;
-}
-
-.content a {
-  color: #836EF9;
-  text-decoration: underline;
-}

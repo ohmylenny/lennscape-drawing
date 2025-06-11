@@ -126,7 +126,7 @@ h1 {
 }
 
 .nav-menu a {
-  color: #FFFFFF !important;
+  color: #FFFFFF;
   text-decoration: none;
   font-weight: 600;
   letter-spacing: 1px;
@@ -135,5 +135,5 @@ h1 {
 }
 
 .nav-menu a:hover {
-  color: #a693ff !important;
+  color: #a693ff;
 }

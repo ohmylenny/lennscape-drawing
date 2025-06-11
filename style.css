@@ -119,22 +119,23 @@ h1 {
 
 .nav-menu {
   display: flex;
-  gap: 32px; /* space between menu items */
+  gap: 32px;
   justify-content: center;
   padding: 20px 0;
-  font-family: inherit;
+  background-color: transparent; /* transparent nav */
+  position: relative;
+  z-index: 2;
 }
 
 .nav-menu a {
-  color: #FFFFFF;              /* white text */
-  text-decoration: none;
-  font-weight: 600;
-  letter-spacing: 1.5px;       /* spacing between letters */
+  color: #FFFFFF; /* white text */
+  font-weight: bold;
+  letter-spacing: 1px;
   font-size: 1.1rem;
+  text-decoration: none;
   transition: color 0.3s ease;
 }
 
 .nav-menu a:hover {
-  color: #a693ff;              /* subtle purple hover effect */
+  color: #a693ff;
 }
-

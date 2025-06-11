@@ -116,3 +116,33 @@ h1 {
   object-fit: cover;   /* crops sides without stretching */
   display: block;
   border-radius: 12px;
+
+.nav-menu {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin: 15px 0;
+}
+
+.nav-menu a {
+  color: var(--main-purple, #836EF9);
+  text-decoration: none;
+  font-weight: bold;
+  padding: 5px 10px;
+  transition: color 0.3s ease;
+}
+
+.nav-menu a:hover {
+  color: #a693ff;
+}
+
+.content ol {
+  padding-left: 1.5rem;
+  line-height: 1.8;
+  font-size: 1.1rem;
+}
+
+.content a {
+  color: #836EF9;
+  text-decoration: underline;
+}

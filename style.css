@@ -122,11 +122,11 @@ h1 {
   gap: 32px;
   justify-content: center;
   padding: 15px 0;
-  background-color: transparent; /* Or set to #200052 if you want dark background */
+  background-color: transparent;
 }
 
 .nav-menu a {
-  color: #FFFFFF !important;     /* Force white text */
+  color: #FFFFFF !important;
   text-decoration: none;
   font-weight: 600;
   letter-spacing: 1px;
@@ -135,5 +135,5 @@ h1 {
 }
 
 .nav-menu a:hover {
-  color: #a693ff !important;     /* Soft purple hover */
+  color: #a693ff !important;
 }

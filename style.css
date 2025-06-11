@@ -1,0 +1,102 @@
+:root {
+  --main-purple: #836EF9;
+  --dark-purple: #200052;
+  --black: #0E100F;
+  --white: #FFFFFF;
+  --soft-gray: #1a1a1a;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--black);
+  color: var(--white);
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--dark-purple);
+  padding: 1rem 2rem;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+}
+
+h1 {
+  color: var(--main-purple);
+  font-size: 2rem;
+}
+
+#x-button {
+  background: var(--main-purple);
+  color: var(--white);
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+#x-button:hover {
+  background: #a693ff;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.art-card {
+  background: var(--soft-gray);
+  padding: 10px;
+  border-radius: 10px;
+  transition: transform 0.2s ease;
+}
+
+.art-card:hover {
+  transform: scale(1.03);
+}
+
+.art-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.title {
+  margin-top: 10px;
+  color: var(--main-purple);
+  font-size: 0.95rem;
+  text-align: center;
+}
+
+/* Lightbox Preview */
+#lightbox {
+  position: fixed;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(14, 16, 15, 0.9);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+}
+
+#lightbox img {
+  max-width: 90%;
+  max-height: 90%;
+  border: 3px solid var(--main-purple);
+  border-radius: 12px;
+}

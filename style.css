@@ -121,21 +121,19 @@ h1 {
   display: flex;
   gap: 32px;
   justify-content: center;
-  padding: 20px 0;
-  background-color: transparent; /* transparent nav */
-  position: relative;
-  z-index: 2;
+  padding: 15px 0;
+  background-color: transparent; /* Or set to #200052 if you want dark background */
 }
 
 .nav-menu a {
-  color: #FFFFFF; /* white text */
-  font-weight: bold;
+  color: #FFFFFF !important;     /* Force white text */
+  text-decoration: none;
+  font-weight: 600;
   letter-spacing: 1px;
   font-size: 1.1rem;
-  text-decoration: none;
   transition: color 0.3s ease;
 }
 
 .nav-menu a:hover {
-  color: #a693ff;
+  color: #a693ff !important;     /* Soft purple hover */
 }

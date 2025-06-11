@@ -122,11 +122,13 @@ h1 {
   gap: 32px;
   justify-content: center;
   padding: 15px 0;
-  background-color: transparent;
+  background-color: transparent; /* Or set to #0E100F if needed */
+  z-index: 2;
+  position: relative;
 }
 
 .nav-menu a {
-  color: var(--white);
+  color: #FFFFFF !important;        /* FORCE WHITE */
   text-decoration: none;
   font-weight: 600;
   letter-spacing: 1px;
@@ -135,5 +137,5 @@ h1 {
 }
 
 .nav-menu a:hover {
-  color: var(--main-purple);
+  color: #a693ff !important;        /* Light purple on hover */
 }

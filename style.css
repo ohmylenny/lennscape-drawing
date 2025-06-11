@@ -100,3 +100,17 @@ h1 {
   border: 3px solid var(--main-purple);
   border-radius: 12px;
 }
+.hero {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 12px;
+  margin: 20px 0;
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 12px;
+  object-fit: cover;
+}

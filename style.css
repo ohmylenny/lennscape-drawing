@@ -104,13 +104,13 @@ h1 {
   width: 100%;
   overflow: hidden;
   border-radius: 12px;
-  margin: 20px 0;
+  margin-bottom: 20px;
 }
 
 .hero img {
   width: 100%;
-  height: auto;
-  display: block;
-  border-radius: 12px;
+  height: 250px;         /* Moderate height */
   object-fit: cover;
+  border-radius: 12px;
+  display: block;
 }

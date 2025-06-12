@@ -11,9 +11,7 @@ const artDescriptions = {
 };
 
 function openLightbox(img) {
-  console.log('openLightbox triggered'); // DEBUG
   const filename = img.src.split('/').pop();
-  console.log('Filename:', filename); // DEBUG
   const info = artDescriptions[filename] || {
     title: 'Untitled',
     description: 'No description available.'
@@ -25,6 +23,5 @@ function openLightbox(img) {
 }
 
 function closeLightbox() {
-  console.log('closeLightbox triggered'); // DEBUG
   document.getElementById('lightbox').style.display = 'none';
 }

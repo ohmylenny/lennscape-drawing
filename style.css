@@ -203,19 +203,30 @@ a:hover {
   height: 16px;
   margin-right: 6px;
 }
-.lightbox-content {
-  display: flex;
-  flex-direction: column;
+
+#lightbox {
+  position: fixed;
+  display: none;
+  justify-content: center;
   align-items: center;
-  gap: 1rem;
+  background-color: rgba(14, 16, 15, 0.9);
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  z-index: 1000;
+  padding: 20px;
+}
+
+.lightbox-content {
+  background: var(--black);
+  padding: 20px;
+  border-radius: 12px;
+  overflow-y: auto;
 }
 
 .lightbox-inner {
   display: flex;
-  flex-direction: row;
   align-items: flex-start;
   gap: 20px;
-  max-width: 90%;
   flex-wrap: wrap;
 }
 
@@ -227,18 +238,19 @@ a:hover {
 }
 
 .lightbox-text {
+  color: #fff;
   max-width: 300px;
-  color: white;
 }
 
 #lightbox-title {
-  margin: 0;
+  margin: 0 0 10px;
   font-size: 1.5rem;
   color: var(--main-purple);
 }
 
 #lightbox-description {
-  margin-top: 0.5rem;
+  margin: 0;
   font-size: 1rem;
 }
+
 

@@ -29,3 +29,4 @@ document.getElementById('lightbox').addEventListener('click', function (e) {
     this.style.display = 'none';
   }
 });
+console.log('Image source:', img.src);

@@ -217,6 +217,13 @@ a:hover {
   align-items: center;
   z-index: 9999;
   cursor: pointer;
+
+  #lightbox-img {
+  max-width: 100%;
+  max-height: 80vh;
+  display: block;
+}
+
 }
 
 /* Lightbox content wrapper */
@@ -236,11 +243,10 @@ a:hover {
 
 /* Image area */
 .lightbox-left {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-shrink: 0;
-  max-height: 80vh;
+  flex: 1;
+  padding: 20px;
+}
+
 }
 
 .lightbox-left img {

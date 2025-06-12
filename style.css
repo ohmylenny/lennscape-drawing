@@ -242,18 +242,12 @@ a:hover {
 }
 
 /* Image area */
-.lightbox-left {
-  flex: 1;
-  padding: 20px;
-}
-
-}
 
 .lightbox-left img {
+  max-width: 90vw;
   max-height: 80vh;
-  height: auto;
   width: auto;
-  max-width: 100%;
+  height: auto;
   object-fit: contain;
   border-radius: 12px;
   border: 3px solid var(--main-purple);

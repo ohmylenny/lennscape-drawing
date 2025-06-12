@@ -13,7 +13,8 @@ const artDescriptions = {
   }
   'Evmox.png': {
     title: 'Evm0X',
-    description: 'Roaming everywhere, find him for a secret story.'
+    description: 'Roaming everywhere, find him for a secret story.' 
+  }
   // Add more entries as needed, matching the image filenames exactly
 };
 

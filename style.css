@@ -204,21 +204,24 @@ a:hover {
   margin-right: 6px;
 }
 
-#lightbox {
-  position: fixed;
-  justify-content: center;
-  align-items: center;
-  background-color: rgba(14, 16, 15, 0.9);
-  top: 0; left: 0;
-  width: 100%; height: 100%;
-  z-index: 1000;
-  padding: 20px;
+.lightbox-content {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+  max-width: 90vw;
+  max-height: 90vh;
+  overflow: auto;
+  padding: 2rem;
+  background-color: var(--dark-purple);
+  border-radius: 1rem;
 }
 
 .lightbox-left img {
+  display: block;
+  height: auto;
+  max-height: 90vh;
+  width: auto;
   max-width: 100%;
-  max-height: 80vh;
-  display: block; /* <- Force it to show */
   border: 3px solid var(--main-purple);
   border-radius: 12px;
 }

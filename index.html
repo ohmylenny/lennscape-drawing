@@ -152,11 +152,15 @@
   </main>
 
   <!-- Lightbox Preview -->
-  <div id="lightbox" onclick="closeLightbox()">
+<div id="lightbox" onclick="closeLightbox()">
   <div class="lightbox-content" onclick="event.stopPropagation()">
-    <img id="lightbox-img" src="" alt="Artwork" />
-    <h2 id="lightbox-title"></h2> <!-- Title element -->
-    <p id="lightbox-description"></p> <!-- Description element -->
+    <div class="lightbox-inner">
+      <img id="lightbox-img" src="" alt="Artwork" />
+      <div class="lightbox-text">
+        <h2 id="lightbox-title">Title</h2>
+        <p id="lightbox-description">Description here</p>
+      </div>
+    </div>
     <button onclick="closeLightbox()">Close</button>
   </div>
 </div>

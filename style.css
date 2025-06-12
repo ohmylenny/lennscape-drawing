@@ -224,11 +224,13 @@ a:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding: 1rem; /* optional: adds spacing inside the text block */
 }
 
 .lightbox-right h2 {
   color: var(--main-purple);
   font-size: 1.6rem;
+  font-weight: bold; /* makes it bold explicitly */
   margin: 0 0 10px;
 }
 
@@ -236,6 +238,7 @@ a:hover {
   font-size: 1rem;
   line-height: 1.6;
   margin: 0;
+  text-align: justify; /* this is the key to justify the paragraph */
 }
 
 /* ==================== */

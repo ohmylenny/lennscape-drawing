@@ -1,9 +1,9 @@
 const artDescriptions = {
-  'images/Fin.png': {
+  'Fin.png': {
     title: 'This Is Fin',
     description: 'A sweet, chill moment under the purple sky—what could be sweeter than Fin?'
   },
-  'images/Vanx.png': {
+  'Vanx.png': {
     title: 'VannnX',
     description: 'An Abstract fire and skull, perfectly matched.'
   },

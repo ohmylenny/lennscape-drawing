@@ -217,40 +217,41 @@ a:hover {
 }
 
 .lightbox-content {
-  background: var(--black);
-  padding: 20px;
-  border-radius: 12px;
-  overflow-y: auto;
-}
-
-.lightbox-inner {
   display: flex;
-  align-items: flex-start;
-  gap: 20px;
-  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 40px;
+  max-width: 90%;
+  max-height: 90%;
+  background-color: rgba(30, 30, 40, 0.85);
+  padding: 30px;
+  border-radius: 16px;
+  align-items: center;
 }
 
-#lightbox-img {
-  max-width: 60vw;
+.lightbox-left img {
+  max-width: 100%;
   max-height: 80vh;
   border: 3px solid var(--main-purple);
   border-radius: 12px;
 }
 
-.lightbox-text {
-  color: #fff;
-  max-width: 300px;
+.lightbox-right {
+  color: white;
+  max-width: 400px;
 }
 
-#lightbox-title {
-  margin: 0 0 10px;
-  font-size: 1.5rem;
+.lightbox-right h2 {
+  margin-top: 0;
   color: var(--main-purple);
 }
 
-#lightbox-description {
-  margin: 0;
-  font-size: 1rem;
+.lightbox-right button {
+  margin-top: 20px;
+  padding: 8px 16px;
+  background-color: var(--main-purple);
+  border: none;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
 }
-
 

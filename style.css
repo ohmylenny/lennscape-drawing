@@ -81,7 +81,7 @@ h1 {
 }
 
 /* Lightbox Preview */
-#lightbox {
+.lightbox-content img {
   position: fixed;
   display: none;
   justify-content: center;
@@ -202,4 +202,29 @@ a:hover {
   width: 16px;
   height: 16px;
   margin-right: 6px;
+}
+.lightbox-content {
+  background-color: #1a1a1a;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  max-width: 90%;
+  max-height: 90%;
+  overflow-y: auto;
+}
+
+.lightbox-text {
+  margin-top: 15px;
+  color: var(--white);
+}
+
+#lightbox-title {
+  font-size: 1.5rem;
+  color: var(--main-purple);
+  margin-bottom: 10px;
+}
+
+#lightbox-description {
+  font-size: 1rem;
+  line-height: 1.4;
 }

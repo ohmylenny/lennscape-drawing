@@ -183,3 +183,23 @@ a:hover {
   background-color: #A693FF;
   color: #0E100F;
 }
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  padding: 15px 20px;
+}
+
+.nav-left,
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.x-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 6px;
+}

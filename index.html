@@ -154,14 +154,14 @@
   <!-- Lightbox Container -->
 <div id="lightbox" onclick="closeLightbox()">
   <div class="lightbox-content" onclick="event.stopPropagation()">
-    <div class="lightbox-inner">
+    <div class="lightbox-left">
       <img id="lightbox-img" src="" alt="Artwork" />
-      <div class="lightbox-text">
-        <h2 id="lightbox-title"></h2>
-        <p id="lightbox-description"></p>
-      </div>
     </div>
-    <button onclick="closeLightbox()">Close</button>
+    <div class="lightbox-right">
+      <h2 id="lightbox-title">Title here</h2>
+      <p id="lightbox-description">Description here</p>
+      <button onclick="closeLightbox()">Close</button>
+    </div>
   </div>
 </div>
 

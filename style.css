@@ -216,24 +216,59 @@ a:hover {
   border-radius: 1rem;
 }
 
-.lightbox-left img {
-  display: block;
-  height: auto;
+#lightbox {
+  position: fixed;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(14, 16, 15, 0.9);
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  z-index: 1000;
+  padding: 40px;
+  overflow: auto;
+}
+
+.lightbox-content {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 40px;
+  background-color: rgba(30, 30, 40, 0.95);
+  padding: 30px;
+  border-radius: 16px;
+  max-width: 90vw;
   max-height: 90vh;
+  overflow: auto;
+}
+
+.lightbox-left img {
+  max-height: 80vh;
+  height: auto;
   width: auto;
   max-width: 100%;
-  border: 3px solid var(--main-purple);
   border-radius: 12px;
+  border: 3px solid var(--main-purple);
+  object-fit: contain;
+  display: block;
 }
 
 .lightbox-right {
   color: white;
   max-width: 400px;
+  overflow-y: auto;
 }
 
 .lightbox-right h2 {
-  margin-top: 0;
   color: var(--main-purple);
+  margin-top: 0;
+  font-size: 1.5rem;
+}
+
+.lightbox-right p {
+  margin-top: 10px;
+  line-height: 1.5;
+  font-size: 1rem;
 }
 
 .lightbox-right button {
@@ -246,9 +281,10 @@ a:hover {
   cursor: pointer;
 }
 
-#lightbox-img {
-  display: block;
-}
+/* Responsive: stack vertically on small screens */
+@media (max-width: 768px) {
+  .lightbox-c
+
 
 @media (max-width: 768px) {
   .lightbox-content {

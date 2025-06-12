@@ -216,18 +216,6 @@ a:hover {
   padding: 20px;
 }
 
-.lightbox-content {
-  display: flex;
-  flex-direction: row;
-  gap: 40px;
-  max-width: 90%;
-  max-height: 90%;
-  background-color: rgba(30, 30, 40, 0.85);
-  padding: 30px;
-  border-radius: 16px;
-  align-items: center;
-}
-
 .lightbox-left img {
   max-width: 100%;
   max-height: 80vh;
@@ -253,5 +241,9 @@ a:hover {
   color: white;
   border-radius: 8px;
   cursor: pointer;
+}
+
+#lightbox-img {
+  display: block;
 }
 

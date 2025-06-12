@@ -204,18 +204,6 @@ a:hover {
   margin-right: 6px;
 }
 
-.lightbox-content {
-  display: flex;
-  gap: 2rem;
-  align-items: flex-start;
-  max-width: 90vw;
-  max-height: 90vh;
-  overflow: auto;
-  padding: 2rem;
-  background-color: var(--dark-purple);
-  border-radius: 1rem;
-}
-
 #lightbox {
   position: fixed;
   display: none;
@@ -232,37 +220,44 @@ a:hover {
 .lightbox-content {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
+  align-items: center;
   gap: 40px;
   background-color: rgba(30, 30, 40, 0.95);
-  padding: 30px;
+  padding: 40px;
   border-radius: 16px;
   max-width: 90vw;
   max-height: 90vh;
-  overflow: auto;
+  margin: auto;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.3);
+}
+
+.lightbox-left {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .lightbox-left img {
   max-height: 80vh;
+  max-width: 100%;
   height: auto;
   width: auto;
-  max-width: 100%;
   border-radius: 12px;
   border: 3px solid var(--main-purple);
   object-fit: contain;
-  display: block;
 }
 
 .lightbox-right {
+  flex: 1;
   color: white;
   max-width: 400px;
-  overflow-y: auto;
 }
 
 .lightbox-right h2 {
   color: var(--main-purple);
   margin-top: 0;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
 }
 
 .lightbox-right p {
@@ -271,29 +266,16 @@ a:hover {
   font-size: 1rem;
 }
 
-.lightbox-right button {
-  margin-top: 20px;
-  padding: 8px 16px;
-  background-color: var(--main-purple);
-  border: none;
-  color: white;
-  border-radius: 8px;
-  cursor: pointer;
-}
-
 /* Responsive: stack vertically on small screens */
-@media (max-width: 768px) {
-  .lightbox-c
-
-
 @media (max-width: 768px) {
   .lightbox-content {
     flex-direction: column;
     align-items: center;
+    text-align: center;
   }
 
   .lightbox-right {
-    text-align: center;
+    max-width: 100%;
   }
 }
 

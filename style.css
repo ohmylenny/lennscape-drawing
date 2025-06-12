@@ -259,6 +259,7 @@ a:hover {
 
 /* Text area */
 .lightbox-right {
+  flex: 1;
   color: white;
   max-width: 400px;
   text-align: left;
@@ -266,6 +267,7 @@ a:hover {
   flex-direction: column;
   justify-content: center;
 }
+
 
 .lightbox-right h2 {
   color: var(--main-purple);

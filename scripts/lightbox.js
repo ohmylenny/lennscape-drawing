@@ -5,26 +5,26 @@ const artDescriptions = {
   },
   'Vanx.png': {
     title: 'VannnX',
-    description: 'An Abstract fire and skull, perfectly matched.'
-  },
-  // Add more here using just the filename
+    description: 'An abstract flame-skull fusion in cosmic firelight.'
+  }
+  // Add more entries as needed, matching the image filenames exactly
 };
 
 function openLightbox(img) {
-  const lightbox = document.getElementById("lightbox");
-  const lightboxImg = document.getElementById("lightbox-img");
-  const lightboxTitle = document.getElementById("lightbox-title");
-  const lightboxDescription = document.getElementById("lightbox-description");
-
-  const fileName = img.src.split('/').pop(); // gets just "Zoe.png"
-  const info = artDescriptions[fileName] || { title: 'Untitled', description: 'No description available.' };
-
-  lightboxImg.src = img.src;
-  lightboxTitle.textContent = info.title;
-  lightboxDescription.textContent = info.description;
-  lightbox.style.display = "flex";
+  console.log('openLightbox triggered'); // DEBUG
+  const filename = img.src.split('/').pop();
+  console.log('Filename:', filename); // DEBUG
+  const info = artDescriptions[filename] || {
+    title: 'Untitled',
+    description: 'No description available.'
+  };
+  document.getElementById('lightbox-img').src = img.src;
+  document.getElementById('lightbox-title').textContent = info.title;
+  document.getElementById('lightbox-description').textContent = info.description;
+  document.getElementById('lightbox').style.display = 'flex';
 }
 
 function closeLightbox() {
-  document.getElementById("lightbox").style.display = "none";
+  console.log('closeLightbox triggered'); // DEBUG
+  document.getElementById('lightbox').style.display = 'none';
 }

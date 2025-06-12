@@ -204,55 +204,63 @@ a:hover {
   margin-right: 6px;
 }
 
+/* Lightbox container */
 #lightbox {
   position: fixed;
-  display: none;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.9);
+  display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgba(14, 16, 15, 0.9);
-  top: 0; left: 0;
-  width: 100%; height: 100%;
-  z-index: 1000;
-  padding: 40px;
-  overflow: auto;
+  z-index: 9999;
+  cursor: pointer;
 }
 
+/* Lightbox content wrapper */
 .lightbox-content {
   display: flex;
   flex-direction: row;
-  justify-content: center; /* center contents horizontally */
-  align-items: center;
-  gap: 60px; /* space between image and text */
-  background-color: rgba(30, 30, 40, 0.95);
-  padding: 40px 60px;
+  background-color: #1e1e28;
+  padding: 40px;
   border-radius: 16px;
   max-width: 90vw;
   max-height: 90vh;
-  margin: auto;
-  box-shadow: 0 0 40px rgba(0, 0, 0, 0.3);
+  gap: 40px;
+  cursor: auto;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
+  overflow: auto;
 }
 
+/* Image area */
 .lightbox-left {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-shrink: 0;
+  max-height: 80vh;
 }
 
 .lightbox-left img {
   max-height: 80vh;
-  max-width: 100%;
   height: auto;
   width: auto;
+  max-width: 100%;
   object-fit: contain;
   border-radius: 12px;
   border: 3px solid var(--main-purple);
 }
 
+/* Text area */
 .lightbox-right {
   color: white;
   max-width: 400px;
   text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .lightbox-right h2 {
@@ -263,22 +271,22 @@ a:hover {
 
 .lightbox-right p {
   font-size: 1rem;
-  line-height: 1.5;
+  line-height: 1.6;
   margin: 0;
 }
 
-/* Mobile friendly: stack content vertically */
+/* Responsive layout: stack vertically on small screens */
 @media (max-width: 768px) {
   .lightbox-content {
     flex-direction: column;
+    align-items: center;
     text-align: center;
-    gap: 30px;
-    padding: 30px;
+    padding: 20px;
   }
 
   .lightbox-right {
     max-width: 100%;
+    margin-top: 20px;
     text-align: center;
   }
 }
-

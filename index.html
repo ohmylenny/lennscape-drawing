@@ -6,19 +6,6 @@
   <title>Lennscape Gallery</title>
   <link rel="stylesheet" href="style.css" />
 </head>
-<script>
-  // Get all .art-card elements
-  const artCards = document.querySelectorAll('.art-card');
-
-  // Loop through and add a number below the title
-  artCards.forEach((card, index) => {
-    const number = document.createElement('p');
-    number.className = 'art-number';
-    number.textContent = `#${index + 1}`;
-    card.appendChild(number); // Add below the title
-  });
-</script>
-
 <body>
 <nav class="nav-menu">
   <a href="index.html">Home</a>
@@ -64,6 +51,18 @@
   </div>
 
   <!-- Future: Wallet connect will be here -->
+  <script>
+  // Get all .art-card elements
+  const artCards = document.querySelectorAll('.art-card');
+
+  // Loop through and add a number below the title
+  artCards.forEach((card, index) => {
+    const number = document.createElement('p');
+    number.className = 'art-number';
+    number.textContent = `#${index + 1}`;
+    card.appendChild(number); // Add below the title
+  });
+</script>
   <script src="scripts/lightbox.js"></script>
 </body>
 </html>

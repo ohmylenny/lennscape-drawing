@@ -7,7 +7,7 @@ const artDescriptions = {
     title: 'VannnX',
     description: 'An Abstract fire and skull, perfectly matched.'
   },
-  // Add more entries for your images here
+  // Add more here using just the filename
 };
 
 function openLightbox(img) {

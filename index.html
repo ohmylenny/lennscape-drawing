@@ -7,25 +7,27 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-   <nav class="nav-menu">
-  <div class="nav-left">
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="participate.html">How to Participate</a>
-  </div>
-  <div class="nav-right">
-    <a href="https://x.com/lennscape_xyz" target="_blank">
-      <img src="images/x-logo.png" alt="X Logo" class="x-icon" /> X
-    </a>
-  </div>
-</nav>
-<header>
-  <section class="hero">
-  <img src="images/header_lennscape.png" alt="Lennscape Header" />
+  <nav class="nav-menu">
+    <div class="nav-left">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="participate.html">How to Participate</a>
+    </div>
+    <div class="nav-right">
+      <a href="https://x.com/lennscape_xyz" target="_blank">
+        <img src="images/x-logo.png" alt="X Logo" class="x-icon" /> X
+      </a>
+    </div>
+  </nav>
+
+  <header>
+    <div class="hero">
+      <img src="images/header_lennscape.png" alt="Lennscape Header" />
+    </div>
     <h1>Lennscape</h1>
     <button id="x-button" onclick="window.open('https://x.com/ohmylenny', '_blank')">Follow on X</button>
-</header>
-</section>
+  </header>
+
   <main class="gallery">
     <!-- Repeat this block for each image -->
 <div class="art-card">
@@ -149,36 +151,32 @@
   <p class="title">Chocobear</p>
 </div>
     <!-- More art-card divs... -->
-  </main>
+   </main>
 
   <!-- Lightbox Container -->
-<div id="lightbox" style="display: none;">
-  <div class="lightbox-content">
-    <div class="lightbox-left">
-      <img id="lightbox-img" src="" alt="Preview">
-<h2 id="lightbox-title"></h2>
-<p id="lightbox-description"></p>
-    <div class="lightbox-right">
-      <h2></h2>
-      <p></p>
+  <div id="lightbox" style="display: none;">
+    <div class="lightbox-content">
+      <div class="lightbox-left">
+        <img id="lightbox-img" src="" alt="Preview" />
+      </div>
+      <div class="lightbox-right">
+        <h2 id="lightbox-title"></h2>
+        <p id="lightbox-description"></p>
+      </div>
     </div>
   </div>
-</div>
-
 
   <!-- Future: Wallet connect will be here -->
   <script>
-  // Get all .art-card elements
-  const artCards = document.querySelectorAll('.art-card');
-
-  // Loop through and add a number below the title
-  artCards.forEach((card, index) => {
-    const number = document.createElement('p');
-    number.className = 'art-number';
-    number.textContent = `#${index + 1}`;
-    card.appendChild(number); // Add below the title
-  });
-</script>
+    // Add numbering to each card
+    const artCards = document.querySelectorAll('.art-card');
+    artCards.forEach((card, index) => {
+      const number = document.createElement('p');
+      number.className = 'art-number';
+      number.textContent = `#${index + 1}`;
+      card.appendChild(number);
+    });
+  </script>
   <script src="scripts/lightbox.js"></script>
 </body>
 </html>

@@ -7,6 +7,13 @@ const artDescriptions = {
     title: 'VannnX',
     description: 'An abstract flame-skull fusion in cosmic firelight.'
   }
+  'Let's.png': {
+    title: 'Leys BOBR',
+    description: 'BOBR LEADER, you can learn Polish from Him.'
+  }
+  'Evmox.png': {
+    title: 'Evm0X',
+    description: 'Roaming everywhere, find him for a secret story.'
   // Add more entries as needed, matching the image filenames exactly
 };
 

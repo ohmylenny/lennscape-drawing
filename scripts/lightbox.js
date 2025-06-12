@@ -10,6 +10,7 @@ const artDescriptions = {
   // Add more entries as needed, matching the image filenames exactly
 };
 
+// Show lightbox
 function openLightbox(img) {
   const filename = img.src.split('/').pop();
   const info = artDescriptions[filename] || {
@@ -22,8 +23,8 @@ function openLightbox(img) {
   document.getElementById('lightbox').style.display = 'flex';
 }
 
-function closeLightbox() {
-  document.getElementById('lightbox').addEventListener('click', function (e) {
+// Hide lightbox when clicking outside the content
+document.getElementById('lightbox').addEventListener('click', function (e) {
   if (e.target.id === 'lightbox') {
     this.style.display = 'none';
   }

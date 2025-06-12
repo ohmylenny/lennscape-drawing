@@ -16,7 +16,7 @@ function openLightbox(img) {
   const lightboxTitle = document.getElementById("lightbox-title");
   const lightboxDescription = document.getElementById("lightbox-description");
 
-  const fileName = img.src.split('/').pop(); // Extract filename from src
+  const fileName = img.src.split('/').pop(); // gets just "Zoe.png"
   const info = artDescriptions[fileName] || { title: 'Untitled', description: 'No description available.' };
 
   lightboxImg.src = img.src;

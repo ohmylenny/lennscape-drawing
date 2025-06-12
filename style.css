@@ -164,3 +164,21 @@ h1 {
   background-color: #A693FF;
   color: #0E100F !important;
 }
+
+a {
+  display: inline-block;
+  background-color: #836EF9;
+  color: #FFFFFF;
+  padding: 10px 16px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  letter-spacing: 0.5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+a:hover {
+  background-color: #A693FF;
+  color: #0E100F;
+}

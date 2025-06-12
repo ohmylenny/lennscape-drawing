@@ -220,10 +220,11 @@ a:hover {
 .lightbox-content {
   display: flex;
   flex-direction: row;
+  justify-content: center; /* center contents horizontally */
   align-items: center;
-  gap: 40px;
+  gap: 60px; /* space between image and text */
   background-color: rgba(30, 30, 40, 0.95);
-  padding: 40px;
+  padding: 40px 60px;
   border-radius: 16px;
   max-width: 90vw;
   max-height: 90vh;
@@ -232,10 +233,10 @@ a:hover {
 }
 
 .lightbox-left {
-  flex: 1;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-shrink: 0;
 }
 
 .lightbox-left img {
@@ -243,39 +244,41 @@ a:hover {
   max-width: 100%;
   height: auto;
   width: auto;
+  object-fit: contain;
   border-radius: 12px;
   border: 3px solid var(--main-purple);
-  object-fit: contain;
 }
 
 .lightbox-right {
-  flex: 1;
   color: white;
   max-width: 400px;
+  text-align: left;
 }
 
 .lightbox-right h2 {
   color: var(--main-purple);
-  margin-top: 0;
   font-size: 1.6rem;
+  margin: 0 0 10px;
 }
 
 .lightbox-right p {
-  margin-top: 10px;
-  line-height: 1.5;
   font-size: 1rem;
+  line-height: 1.5;
+  margin: 0;
 }
 
-/* Responsive: stack vertically on small screens */
+/* Mobile friendly: stack content vertically */
 @media (max-width: 768px) {
   .lightbox-content {
     flex-direction: column;
-    align-items: center;
     text-align: center;
+    gap: 30px;
+    padding: 30px;
   }
 
   .lightbox-right {
     max-width: 100%;
+    text-align: center;
   }
 }
 

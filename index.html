@@ -153,8 +153,14 @@
 
   <!-- Lightbox Preview -->
   <div id="lightbox" onclick="closeLightbox()">
-    <img id="lightbox-img" src="" />
+  <div class="lightbox-content" onclick="event.stopPropagation()">
+    <img id="lightbox-img" src="" alt="Artwork" />
+    <div class="lightbox-text">
+      <h2 id="lightbox-title">Title Here</h2>
+      <p id="lightbox-description">Description goes here.</p>
+    </div>
   </div>
+</div>
 
   <!-- Future: Wallet connect will be here -->
   <script>

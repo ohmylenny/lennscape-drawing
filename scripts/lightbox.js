@@ -1,11 +1,11 @@
 const artDescriptions = {
-  'art1.jpg': {
-    title: 'Celestia – Luna Morita',
-    description: 'A dreamy illustration depicting a mystical night sky over a calm landscape.'
+  'images/Fin.png': {
+    title: 'This Is Fin',
+    description: 'A sweet, chill moment under the purple sky—what could be sweeter than Fin?'
   },
-  'art2.jpg': {
-    title: 'Nova Bloom – Kei Haru',
-    description: 'An abstract flower blooming under cosmic starlight, inspired by energy and rebirth.'
+  'images/Vanx.png': {
+    title: 'VannnX',
+    description: 'An Abstract fire and skull, perfectly matched.'
   },
   // Add more entries for your images here
 };

@@ -266,3 +266,11 @@ a:hover {
   text-align: justify;
   margin-bottom: 2rem;
 }
+
+.page-title {
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 3rem;
+  color: white;
+  font-family: 'Inter', sans-serif;
+}

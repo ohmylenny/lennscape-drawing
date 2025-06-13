@@ -210,13 +210,13 @@ a:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 1rem; /* optional: adds spacing inside the text block */
+  padding: 1rem;
 }
 
 .lightbox-right h2 {
   color: var(--main-purple);
   font-size: 1.6rem;
-  font-weight: bold; /* makes it bold explicitly */
+  font-weight: bold;
   margin: 0 0 10px;
 }
 
@@ -224,7 +224,7 @@ a:hover {
   font-size: 1rem;
   line-height: 1.6;
   margin: 0;
-  text-align: justify; /* this is the key to justify the paragraph */
+  text-align: justify;
 }
 
 /* ==================== */
@@ -256,7 +256,7 @@ a:hover {
 
 .content h2 {
   font-size: 1.8rem;
-  color: var(--main-purple); /* or choose a color you like */
+  color: var(--main-purple);
   margin-bottom: 0.5rem;
 }
 
@@ -305,14 +305,14 @@ a:hover {
 }
 
 .x-button:hover {
-  background-color: #a06cd5; /* Slightly lighter purple on hover */
+  background-color: #a06cd5;
 }
 
 main.content {
   max-width: 700px;
-  margin: 60px 0 60px 60px; /* More space on the left side */
+  margin: 60px 0 60px 60px;
   padding: 20px;
-  background-color: rgba(0, 0, 0, 0.5); /* Optional: semi-transparent bg for better text visibility */
+  background-color: rgba(0, 0, 0, 0.5);
   border-radius: 10px;
   font-size: 1.1rem;
   line-height: 1.8;
@@ -333,16 +333,7 @@ main.content ol li {
   margin-bottom: 0.8rem;
 }
 
-body {
-  background-image: url('images/participate-bg.jpg');
-  background-size: cover;         /* Fill the screen without stretching */
-  background-position: center;    /* Center the image */
-  background-repeat: no-repeat;
-  background-attachment: fixed;   /* Keeps background fixed during scroll */
-  color: white;                   /* Ensures text is readable */
-}
-
-/* Only applies to How to Participate page */
+/* ✅ Background image applies ONLY on .participate-page */
 .participate-page {
   background-image: url('images/participate-bg.jpg');
   background-size: cover;
@@ -355,9 +346,9 @@ body {
 /* Scoped main layout for participate page */
 .participate-page main.content {
   max-width: 700px;
-  margin: 60px 0 60px 60px; /* Space from the left */
+  margin: 60px 0 60px 60px;
   padding: 20px;
-  background-color: rgba(0, 0, 0, 0.5); /* optional: dark overlay */
+  background-color: rgba(0, 0, 0, 0.5);
   border-radius: 10px;
   font-size: 1.1rem;
   line-height: 1.8;

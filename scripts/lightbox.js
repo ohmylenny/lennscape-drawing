@@ -21,7 +21,7 @@ const artDescriptions = {
 },
 'HOS.png': {
   title: 'House OF Sharky',
-  description: 'A deep sea vibes, all sharks, Ghos. Do not make mom mad!.'
+  description: 'A deep sea vibes, all sharks, Ghos. Do not make mom mad!'
 },
 'HOS2.png': {
   title: 'House OF Sharky',
@@ -35,6 +35,10 @@ const artDescriptions = {
   title: 'Sailornini',
   description: 'Cool, little bit mysterious, but kindhearted inside. a KIND community team members.'
 },
+  'Monanimal_Lunar.png': {
+  title: 'Monanimal (Lunar Special Edition)',
+  description: 'Chog, Moyaki and Molandak. They are having fun in Lunar New Year celebration.'
+},
 'Bruno.png': {
   title: 'Bruno',
   description: 'Humble, kindhearted, supportive. A gym bros too. Portuguese-Nad'
@@ -46,6 +50,10 @@ const artDescriptions = {
 'Ghooolyache.png': {
   title: 'Ghoolyache',
   description: 'Great crowdmaker, simp too much. He loves Asian girl. Professional gamers at that time'
+},
+'Max.png': {
+  title: 'Max',
+  description: 'He is very diligent tbh, make a note for everything everyday before sleep. What did u write on that notebook, Max?'
 },
 'Urban_Kryptoo.png': {
   title: 'Urban Kryptoo',

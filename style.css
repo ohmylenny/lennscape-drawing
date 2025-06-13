@@ -18,6 +18,10 @@ body {
   font-family: 'Segoe UI', sans-serif;
   line-height: 1.6;
   padding: 20px;
+}
+
+/* Only applies to How to Participate page */
+.participate-page {
   background-image: url('images/participate-bg.jpg');
   background-size: cover;
   background-position: center;

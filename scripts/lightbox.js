@@ -9,7 +9,7 @@ const artDescriptions = {
 },
 "Let's.png": {
   title: 'Leys BOBR',
-  description: 'BOBR LEADER, you can learn Polish from Him. KURWAAAA. I always waiting for his tweet everyday.'
+  description: 'The father of BOBR, you can learn Polish from Him. KURWAAAA. I always waiting for his tweet everyday.'
 },
 'Evmox.png': {
   title: 'Evm0X',

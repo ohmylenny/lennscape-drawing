@@ -244,3 +244,25 @@ a:hover {
     text-align: center;
   }
 }
+
+/* About Page Styling */
+.content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  color: white;
+  font-family: 'Inter', sans-serif;
+}
+
+.content h2 {
+  font-size: 1.8rem;
+  color: var(--main-purple); /* or choose a color you like */
+  margin-bottom: 0.5rem;
+}
+
+.content p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: justify;
+  margin-bottom: 2rem;
+}

@@ -1,7 +1,7 @@
 const artDescriptions = {
   'Fin.png': {
   title: 'This Is Fin',
-  description: 'Gwarrrkkk, has amazing cutie voice. Fin made from love and fun.'
+  description: 'Gwarrrkkk, has amazing cutie voice. Fin made from love and fun. Nads love to listen her Nadcase. Some are remembering onion when her name is mentioned. Full of spirit, also coffee lovers.'
 },
 'Vanx.png': {
   title: 'VannnX',
@@ -9,7 +9,7 @@ const artDescriptions = {
 },
 "Let's.png": {
   title: 'Leys BOBR',
-  description: 'The father of BOBR, you can learn Polish from Him. KURWAAAA. I always waiting for his tweet everyday.'
+  description: 'The father of BOBR, you can learn Polish from Him. KURWAAAA. I always waiting for his tweet everyday. Funny guy, I remember that he ever posted a girl version of himself called LEYA BOBRETTA wtf.'
 },
 'Evmox.png': {
   title: 'Evm0X',
@@ -21,7 +21,7 @@ const artDescriptions = {
 },
 'HOS.png': {
   title: 'House OF Sharky',
-  description: 'A deep sea vibes, all sharks, Ghos. Do not make mom mad!'
+  description: 'A deep sea vibes, all sharks, gHOS. Do not make mom mad!'
 },
 'HOS2.png': {
   title: 'House OF Sharky',
@@ -29,7 +29,7 @@ const artDescriptions = {
 },
 'Potato_.png': {
   title: 'Potato13 (Ziemniak)',
-  description: 'Humble Polish-Nad, BOBR familia, he is everywhere. Super kind!'
+  description: 'Great Polish-Nad, BOBR familia, he is everywhere. I just know that Ziemniak means potato. Teach lot of polish language, of course includes KURWAAAA. The first person that let me draw a pfp for him. Long live Ziemniak!'
 },
 'Nini.png': {
   title: 'Sailornini',
@@ -41,7 +41,7 @@ const artDescriptions = {
 },
 'Bruno.png': {
   title: 'Bruno',
-  description: 'Humble, kindhearted, supportive. A gym bros too. Portuguese-Nad'
+  description: 'Humble, kindhearted, supportive. A gym bros too. Portuguese-Nad. He loves to come to a beautiful place. Honestly, I always amazed when he share the view. He is everywhere, helped another community members.'
 },
 'Zoe.png': {
   title: 'Zo',
@@ -57,7 +57,7 @@ const artDescriptions = {
 },
 'Urban_Kryptoo.png': {
   title: 'Urban Kryptoo',
-  description: 'Supportive, he is everywhere.'
+  description: 'Supportive, he is everywhere. Another BOBR familia. Helped so many events, haxball players, and so on. The great moderator in Polish Nad.'
 },
 'Sheldon.png': {
   title: 'Sheldon',

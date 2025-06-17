@@ -118,6 +118,10 @@ const artDescriptions = {
 'Chocobear.png': {
   title: 'Chocobear',
   description: 'A humble guy and a true gamer. He gets super excited whenever there’s a gaming event in the community. You can challenge him for a match or ask for tips on leveling up your game. Another amazing Nads. Look at him now, heading out on his scooter to find food after 23 hours of straight gaming lmao.'
+  },
+'Vinni.png': {
+  title: 'Vinni',
+  description: 'Another talented artist from the Monad community and of course truly BOBR.He creates beautiful masterpieces with a unique style, like the MOMO PFPs he designed. But he is more than just an artist. He’s a true builder, an innovative mind always crafting something valuable for the community.'
 }
 
   // Add more entries as needed, matching the image filenames exactly

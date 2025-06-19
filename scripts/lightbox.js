@@ -125,7 +125,7 @@ const artDescriptions = {
 },
   'Issei_.png': {
   title: 'Issei',
-  description: 'This is Issei, another talented artist in Monad. He creates the uwaaa drawing collection—super cute PFPs that are full of charm. He’s incredibly creative. I’m not sure where all that inspiration comes from, but it’s seriously impressive.'
+  description: 'This is Issei, another talented artist in Monad. He creates the uwaaa drawing collection, super cute PFPs that are full of charm. He’s incredibly creative. I’m not sure where all that inspiration comes from, but it’s seriously impressive.'
 }
 
   // Add more entries as needed, matching the image filenames exactly

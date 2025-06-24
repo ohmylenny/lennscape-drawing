@@ -126,6 +126,10 @@ const artDescriptions = {
   'Issei_.png': {
   title: 'Issei',
   description: 'This is Issei, another talented artist in Monad. He creates the uwaaa drawing collection, super cute PFPs that are full of charm. He’s incredibly creative. I’m not sure where all that inspiration comes from, but it’s seriously impressive.'
+ },
+  'Sanji.png': {
+  title: 'Sanji Vinsm⦿ke',
+  description: 'Sanji is another charming Nad. He’s incredibly talented at drawing, and his masterpieces have already spread across the world and throughout the Monad community. A supportive soul, his kind words often motivate and encourage others in the space.'
 }
 
   // Add more entries as needed, matching the image filenames exactly

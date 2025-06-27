@@ -130,6 +130,10 @@ const artDescriptions = {
   'Sanji.png': {
   title: 'Sanji Vinsm⦿ke',
   description: 'Sanji is another charming Nad. He’s incredibly talented at drawing, and his masterpieces have already spread across the world and throughout the Monad community. A supportive soul, his kind words often motivate and encourage others in the space.'
+},
+  'Kasyak.png': {
+  title: 'Kasyak',
+  description: 'Kasyak the artist, that is what I usually call him. His drawings are incredible on every canvas. You can feel the passion in each piece, his art speaks louder than words. Say hi if you meet him, though he’s a little quiet.'
 }
 
   // Add more entries as needed, matching the image filenames exactly

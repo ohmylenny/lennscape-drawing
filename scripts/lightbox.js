@@ -134,6 +134,10 @@ const artDescriptions = {
   'Kasyak.png': {
   title: 'Kasyak',
   description: 'Kasyak the artist, that is what I usually call him. His drawings are incredible on every canvas. You can feel the passion in each piece, his art speaks louder than words. Say hi if you meet him, though he’s a little quiet.'
+},
+  'Kasyak.png': {
+  title: 'Hyuuu',
+  description: 'She sings a beautiful song with a golden voice. Even though she is an introvert and a bit shy, Hikari joins her on stage to lift her confidence. You can spot her at many events—be sure to give her a wave!'
 }
 
   // Add more entries as needed, matching the image filenames exactly

@@ -138,6 +138,10 @@ const artDescriptions = {
   'Hyuuu.png': {
   title: 'Hyuuu',
   description: 'She sings a beautiful song with a golden voice. Even though she is an introvert and a bit shy, Hikari joins her on stage to lift her confidence. You can spot her at many events—be sure to give her a wave!'
+},
+  'Torzyk_.png': {
+  title: 'Torzykk',
+  description: 'Another talented polish-nad. He’s often found roaming around Monad corners, sharing helpful insights and occasionally dropping memes. Sure, he’s a BOBR bois but definitely not a bois. He’s way too mature for that.'
 }
 
   // Add more entries as needed, matching the image filenames exactly

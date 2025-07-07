@@ -142,6 +142,10 @@ const artDescriptions = {
   'Torzyk_.png': {
   title: 'Torzykk',
   description: 'Another talented polish-nad. He’s often found roaming around Monad corners, sharing helpful insights and occasionally dropping memes. Sure, he’s a BOBR bois but definitely not a bois. He’s way too mature for that.'
+},
+  'Lora.png': {
+  title: 'Lora',
+  description: 'The cool girl in Monad. She’s known for her strong personality, endless shitposting, and chaotic meme energy. Almost every Nad knows who she is. She’s chasing a big dream, now hustle isn’t just a word, it’s her daily rhythm.'
 }
 
   // Add more entries as needed, matching the image filenames exactly

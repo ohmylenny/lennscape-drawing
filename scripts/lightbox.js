@@ -146,6 +146,10 @@ const artDescriptions = {
   'Lora.png': {
   title: 'Lora',
   description: 'The cool girl in Monad. She’s known for her strong personality, endless shitposting, and chaotic meme energy. Almost every Nad knows who she is. She’s chasing a big dream, now hustle isn’t just a word, it’s her daily rhythm.'
+},
+  'Ander.png': {
+  title: 'Ander',
+  description: 'A talented member of the Monad community, known for his standout animation and artistic skills. His works often carry a unique memetic touch, adding extra charm to each piece. I believe he still has many hidden talents waiting to be discovered.'
 }
 
   // Add more entries as needed, matching the image filenames exactly

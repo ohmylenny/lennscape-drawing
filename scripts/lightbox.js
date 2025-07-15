@@ -150,7 +150,12 @@ const artDescriptions = {
   'Ander.png': {
   title: 'Ander',
   description: 'A talented member of the Monad community, known for his standout animation and artistic skills. His works often carry a unique memetic touch, adding extra charm to each piece. I believe he still has many hidden talents waiting to be discovered.'
+},
+  'Sovan.png': {
+  title: 'Ander',
+  description: 'A certified Ironnads, he hits the gym more than four times a week and still finds time to yap and game like he was born with a controller. Been gaming since age 3? Legend. Supportive, kind, and lowkey might lift you and your KD.'
 }
+
 
   // Add more entries as needed, matching the image filenames exactly
 };

@@ -154,7 +154,12 @@ const artDescriptions = {
   'Sovan.png': {
   title: 'Sovan',
   description: 'A certified Ironnads, he hits the gym more than four times a week and still finds time to yap and game like he was born with a controller. Been gaming since age 3? Legend. Supportive, kind, and lowkey might lift you and your KD.'
+},
+  '13.png': {
+  title: '13',
+  description: 'They call him "13". A theatrical talent with a knack for music and drama musicals. Can you believe he writes his own songs? He’s already created songs and videos about Monad with his band: 11, 12, and 13.'
 }
+
 
 
   // Add more entries as needed, matching the image filenames exactly

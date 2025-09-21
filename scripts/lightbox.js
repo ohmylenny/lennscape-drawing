@@ -159,7 +159,7 @@ const artDescriptions = {
   title: '13',
   description: 'They call him "13". A theatrical talent with a knack for music and drama musicals. Can you believe he writes his own songs? He’s already created songs and videos about Monad with his band: 11, 12, and 13.'
 },
-  '_Blippy.png': {
+  'Blippy.png': {
   title: 'BlippyChad',
   description: 'They call him the old father of the network space, but he is still young. Blippy can do so many things: gaming, making videos, cracking jokes. He is full of energy. You will often find him in game sessions, so that is the perfect time to catch him.'
 },

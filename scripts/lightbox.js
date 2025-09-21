@@ -162,7 +162,11 @@ const artDescriptions = {
   '_Blippy.png': {
   title: 'BlippyChad',
   description: 'They call him the old father of the network space, but he is still young. Blippy can do so many things: gaming, making videos, cracking jokes. He is full of energy. You will often find him in game sessions, so that is the perfect time to catch him.'
-}
+},
+  'Koza.png': {
+  title: 'KOZA',
+  description: 'Another BOBR father. Koza, the great analyst in Monad. Meet him and meditate together, and you might discover something new in your life. A real GOAT.'
+},
 
 
 

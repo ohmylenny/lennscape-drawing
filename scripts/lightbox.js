@@ -167,7 +167,10 @@ const artDescriptions = {
   title: 'KOZA',
   description: 'Another BOBR father. Koza, the great analyst in Monad. Meet him and meditate together, and you might discover something new in your life. A real GOAT.'
 },
-
+'MonGo.png': {
+  title: 'MONgo',
+  description: 'A relentlessly passionate person, he loves to travel and roam with the nads. As the Coffeenad initiator, he reminds us to stay caffeinated and productive all day. And of course, everybody knows he is a true Daks maxi.'
+},
 
 
   // Add more entries as needed, matching the image filenames exactly

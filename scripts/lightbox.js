@@ -171,6 +171,10 @@ const artDescriptions = {
   title: 'MONgo',
   description: 'A relentlessly passionate person, he loves to travel and roam with the nads. As the Coffeenad initiator, he reminds us to stay caffeinated and productive all day. And of course, everybody knows he is a true Daks maxi.'
 },
+  'Pitaszenko.png': {
+  title: 'Pitaszenko',
+  description: 'A spirited travel Nad, he has visited many beautiful places with its own story behind it. He explores infinity views. Pitaszenko is a worldwide itself. Moreover, he is so warm person.'
+},
 
 
   // Add more entries as needed, matching the image filenames exactly
